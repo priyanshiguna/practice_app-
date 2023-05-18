@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'button_screen.dart';
+import 'bottombar_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ButtonScreen(),
+      home: const BottomBar(),
     );
   }
 }
